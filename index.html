@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="score">Score: 0</div>
+  <div id="target"></div>
+
+  <div id="gameOver" class="hidden">
+    <h1>Game Over</h1>
+    <button onclick="restartGame()">Restart</button>
+    <button onclick="shareGame()">Share</button>
+    <button onclick="openMore()">More Games</button>
+  </div>
+
+  <div id="moreGames" class="hidden">
+    <h2>More Games</h2>
+    <p>Coming Soon 🔥</p>
+    <button onclick="closeMore()">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
